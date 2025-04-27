@@ -18,6 +18,7 @@ const Search = () => {
   useEffect(() => {
     getNearbyAirports(setAirports, setError, setLoading);
   }, []);
+  console.log(airports)
 
   //TODO: Finish passing parameters to form
   const onSubmitHandler = (e) => {
