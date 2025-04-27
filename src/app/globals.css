@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #8AB4F8;
 }
 
 @theme inline {
@@ -23,4 +24,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+.translate-3d {
+  transform: translate3d(-50%,0,0);
 }
