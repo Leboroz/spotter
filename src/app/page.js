@@ -1,10 +1,11 @@
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
-import Accordion from "./components/Accordion";
-import AccordionSlide from "./components/AccordionSlide";
-import Navbar from "./components/Navbar";
-import Search from "./components/Search";
-import StaticMap from "./components/StaticMap";
-import Segment from "./layouts/Segment";
+import Segment from "@/layouts/Segment";
+import StaticMap from "@/components/StaticMap";
+import Search from "@/components/Search";
+import Navbar from "@/components/Navbar";
+import AccordionSlide from "@/components/AccordionSlide";
+import Accordion from "@/components/Accordion";
+
 
 const slides = [
   {
